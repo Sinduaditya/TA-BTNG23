@@ -1,0 +1,73 @@
+* {
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    background-image: url('../images/wp.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 190px;
+    text-align: center;
+    height: 100vh; /* Tinggi elemen .hero (70% dari tinggi viewport) */
+    margin: 0;
+    
+}
+
+
+
+
+.hero .container .judul {
+    font-size: 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    .hero .container .judul {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .banner1 {
+        display: none;
+
+    }
+  }
+  
+
+.icon {
+    margin-top: -40px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: 2px;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 1px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 80%;
+  }
+
+  
