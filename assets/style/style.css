@@ -8,13 +8,6 @@
     background-color: #176B87 !important;
 }
 
-.navbar-dark{
-    color: white !important;
-}
-
-.navbar-light{
-    color: black !important;
-}
 
 .card-img-top {
     width: 100%;
@@ -32,7 +25,8 @@
     text-align: center;
     height: 100vh; /* Tinggi elemen .hero (70% dari tinggi viewport) */
     margin: 0;
-    
+    border-radius: 40px 40px 40px 40px;
+    margin: 30px;
 }
 
 
@@ -47,9 +41,18 @@
         text-align: center;
     }
 
+    .hero {
+        margin: 0px !important;
+        border-radius: 0px 0px 40px 40px !important;
+    }
+
     .banner1 {
         display: none;
 
+    }
+
+    .navbar {
+        border-radius: 0px 0px 0px 0px !important;
     }
 
     .card-img-top {
@@ -58,6 +61,23 @@
         object-fit: cover;
     }
 
+    .gallery {
+        margin: 0px !important;
+        border-radius: 40px 40px 0px 0px !important;
+    }
+
+    .service {
+        margin: 0px !important;
+        border-radius: 0px 0px 0px 0px !important;
+        padding-bottom: 15px;
+    }
+
+    .contact {
+        margin: 0px !important;
+        border-radius: 0px 0px 40px 40px !important;
+        padding-bottom: 15px;
+        text-align: center;
+    }    
 
   }
   
@@ -71,9 +91,10 @@
 }
 
 .navbar {
-    /* background-color: #1d4a5d ; */
+    background-color: #04364A ;
     /* background-color: transparent; */
-    backdrop-filter: blur(15px) ;
+    /* backdrop-filter: blur(15px) ; */
+    border-radius: 0px 0px 40px 40px;
 }
 
 .nav-link {
@@ -101,7 +122,29 @@
 
 .gallery {
     background-color: #04364A;
+    border-radius: 40px 40px 40px 40px;
+    margin: 30px;
 }
 
+.service {
+    background-color: #176B87;
+    border-radius: 40px 40px 40px 40px;
+    margin: 30px;
+}
+
+.contact {
+    background-color: #64CCC5;
+    border-radius: 40px 40px 40px 40px;
+    margin: 30px;
+    color: #04364A !important;
+}
+
+.footer{
+    background-color: #DAFFFB;
+    border-radius: 40px 40px 40px 40px;
+    margin: 30px;
+    color: #04364A !important; 
+    font-weight: bold;
+}
 
   
